@@ -28,7 +28,7 @@ def songs
 end
 
 def self.song_count
-   @@song_count # keeps track of number of songs 
+   @@song_count # keeps track of number of songs
  end
 
 end
