@@ -22,8 +22,8 @@ post.author = self
 @@post_count +=1 # for every new post the count goes up by 1
 end
 
-def post
-@post
+def posts
+@posts
 end
 
 def self.post_count
