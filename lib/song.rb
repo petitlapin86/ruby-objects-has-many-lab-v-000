@@ -1,7 +1,7 @@
 class Song
-  attr_accessor :name, :artist
+  attr_accessor :name, :artist #belongs to an artist 
 
-  def initialize(name)
+  def initialize(name) #initialize the song class with a name 
   @name = name
   end
 
@@ -9,7 +9,7 @@ class Song
     if self.artist
       self.artist.name
   else
-    nil
+    nil #we dont want code to break if theres no artist, so we ask it to return nil in this case 
   end
 end
 end
