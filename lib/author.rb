@@ -16,8 +16,8 @@ end
 
 
 def add_post_by_title(title)
-song = Post.new(title)
-@post << post
+post = Post.new(title)
+self.post << post
 post.author = self
 @@post_count +=1 # for every new post the count goes up by 1
 end
