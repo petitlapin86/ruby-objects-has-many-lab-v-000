@@ -1,7 +1,7 @@
 class Post
-  attr_accessor :name, :author #belongs to an artist
+  attr_accessor :title, :author #belongs to an artist
 
-  def initialize(title) #initialize the song class with a name
+  def initialize(title) #initialize the post class with a title
   @title = title
   end
 
