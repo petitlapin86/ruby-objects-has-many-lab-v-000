@@ -20,7 +20,7 @@ def add_song_by_name(name, genre)
 song = Song.new(name, genre)
 @songs << song
 song.artist = self
- @@song_count +=1
+ @@song_count +=1 # for every new song the count goes up by 1
 end
 
 def songs
